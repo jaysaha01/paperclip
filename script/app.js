@@ -1,7 +1,7 @@
 
 // News room making
 
-let businessData = "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=";
+let businessData = "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey";
 
 let key = "df20cdfb2aec4cdea7841520d797bb41";
 
@@ -461,8 +461,8 @@ gsap.to(".football",{
         trigger: ".football",
         scroller: "body",
         marker: true,
-        start: "top -50%",
-        end: "top -50%",
+        start: "top 1%",
+        end: "top 1%",
         scrub: 1
     }
 
