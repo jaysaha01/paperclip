@@ -445,8 +445,8 @@ gsap.to(".culture",{
         trigger: ".culture",
         scroller: "body",
         marker: true,
-        start: "top -100%",
-        end: "top -100%",
+        start: "top -20%",
+        end: "top -20%",
         scrub: 1
     }
 
@@ -461,8 +461,8 @@ gsap.to(".football",{
         trigger: ".football",
         scroller: "body",
         marker: true,
-        start: "top 1%",
-        end: "top 1%",
+        start: "top -20%",
+        end: "top -20%",
         scrub: 1
     }
 
