@@ -461,8 +461,8 @@ gsap.to(".football",{
         trigger: ".football",
         scroller: "body",
         marker: true,
-        start: "top -90%",
-        end: "top -90%",
+        start: "top -50%",
+        end: "top -50%",
         scrub: 1
     }
 
